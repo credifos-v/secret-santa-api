@@ -13,4 +13,9 @@ A simple REST API to manage participants and generate valid Secret Santa draws.
 
 ```bash
 docker-compose up --build
+```
 
+## Run Tests
+```bash
+python -m pytest  
+``` 
