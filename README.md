@@ -2,13 +2,6 @@
 
 A simple REST API to manage participants and generate valid Secret Santa draws.
 
-
-## Stack
-- FastAPI
-- SQLModel
-- SQLite
-- Docker
-
 ## Run Locally
 
 ```bash
@@ -19,3 +12,12 @@ docker-compose up --build
 ```bash
 python -m pytest  
 ``` 
+
+## OpenAPI docs
+http://localhost:8060/redoc
+
+## Stack 
+- FastAPI
+- SQLModel
+- SQLite
+- Docker
